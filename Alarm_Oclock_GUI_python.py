@@ -34,4 +34,5 @@ time_format = Label(alarm_clock, text= "Enter time in 24 hour format!",
 add_time = Label(alarm_clock , text = "Hour Min Sec" ,font= 60).place(x=110)
 
 set_your_alarm = Label (alarm_clock , text = "what time to wake up", fg="blue",relief="solid", font=("Helevetica",7,"bold")).place(x=0,y=29)
+submit = Button (alarm_clock, text = "Set alarm" , fg="red",width=10,command=actual_time).place(x=110, y=70)
 clock.mainloop()
